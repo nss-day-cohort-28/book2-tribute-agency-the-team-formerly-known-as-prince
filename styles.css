@@ -1,2 +1,95 @@
 /* font-family: 'K2D', sans-serif;
 font-family: 'Kaushan Script', cursive; */
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+
+/* Global Styles */
+
+/* Fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Kaushan Script", cursive;
+  color: rgb(83, 21, 119);
+}
+
+body {
+  font-family: "K2D", sans-serif;
+}
+
+/* Header Styles */
+.site-header{
+  display: flex;
+  background-color: rgb(83, 21, 119);
+  color: whitesmoke;
+  justify-content: space-around;
+}
+
+.site-title, .site-nav,.sub-title {
+  color: whitesmoke;
+}
+
+/* Image */
+.headshot {
+  max-width: 100%;
+  width: 400px;
+  margin: 50px 0;
+}
+
+/*Nav styles */
+.site-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.site-nav__link {
+  color: whitesmoke;
+  padding: 12px;
+}
+
+.site-nav__link a {
+  color: whitesmoke;
+}
+
+.site-nav__link.active {
+  color: rgb(83, 21, 119);
+  background-color: whitesmoke;
+}
+
+.site-nav__link.active a{
+  color: rgb(83, 21, 119);
+}
+
+/* footer */
+footer {
+  background-color: rgb(83, 21, 119);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color:white;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  align-content: center;
+}
+
+.footer-links a {
+ color:whitesmoke;
+}
+
+.footer-links li {
+  padding: 12px;
+}
+
+footer p {
+  padding: 12px;
+}
