@@ -193,6 +193,7 @@ footer p {
   padding: 12px 0;
 }
 
+
 /* Global Body Styles */
 
 .page-title {
@@ -248,4 +249,57 @@ article li {
 }
 .names__list-item img {
   width: 70px;
+}
+
+/* Newsfeed styles */
+.newsBox {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  border: 3px rgb(83, 21, 119) solid;
+  max-width: 90%;
+  margin: 5px auto;
+}
+
+.headlineImage {
+  width: 400px;
+  height: 250px;
+}
+
+.newsFeedTitle {
+  display:flex;
+  justify-content: center;
+}
+
+
+.likelihoodRating {
+  display:flex;
+  background-color: rgb(83, 21, 119);
+  color: whitesmoke;
+}
+
+.newsBoxContent {
+  display: flex;
+}
+
+.newsBoxFooter {
+  color: whitesmoke;
+  background-color: rgb(83, 21, 119);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.newsLink {
+  text-align: right;
+  padding: 10px;
+} 
+
+.newsBoxText {
+  padding: 20px;
+}
+
+.headlineTitle .section__title {
+  margin-top: 0;
 }
