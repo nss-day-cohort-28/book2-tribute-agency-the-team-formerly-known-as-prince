@@ -154,3 +154,42 @@ article li {
 .names__list-item img {
   width: 70px;
 }
+/* Career Page Styling */
+
+.career_title {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.career_article_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.section__title.career{
+  display: flex;
+  justify-content: center;
+}
+
+.album_cover {
+  max-width: 100%;
+  width: 100px;
+  
+}
+
+.career_section {
+  padding: 100px 0;
+  margin: 
+  text-align: center;
+  position: relative;
+}
+
+.top_albums {
+  display: flex;
+  flex-direction: row;
+}
