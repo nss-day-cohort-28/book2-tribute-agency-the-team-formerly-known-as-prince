@@ -71,6 +71,11 @@ body {
 }
 
 /* Classes */
+.personal {
+  max-width: 90%;
+  margin: 2em auto;
+}
+
 .relatives__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -85,6 +90,11 @@ body {
   margin: 20px;
 }
 
+.relatives__content img {
+  width: 200px;
+  height: 300px;
+}
+
 .test p {
   display: flex;
   align-items: flex-end;
@@ -93,6 +103,17 @@ body {
 
 .section__item {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section__content {
+  text-align: center;
+}
+
+
+.section__title {
+  text-align: center;
 }
 
 
