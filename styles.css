@@ -149,10 +149,15 @@ body {
 /* footer */
 footer {
   background-color: rgb(83, 21, 119);
+}
+.footer-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   color:white;
+  font-weight: bold;
 }
 .footer-links {
   display: flex;
@@ -164,14 +169,28 @@ footer {
 
 .footer-links a {
  color:whitesmoke;
+ text-decoration: none;
+ text-transform: uppercase;
 }
 
 .footer-links li {
   padding: 12px;
 }
 
+.footer-links li:hover {
+  background-color: white;
+  transform: skew(-20deg);
+}
+
+.footer-links li:hover a {
+  color: rgb(83, 21, 119);
+  display: inline-block;
+  transform: skew(20deg);
+
+}
+
 footer p {
-  padding: 12px;
+  padding: 12px 0;
 }
 
 /* Global Body Styles */
