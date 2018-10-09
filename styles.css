@@ -248,8 +248,29 @@ article li {
   flex-direction: column;
   align-items: center;
 }
+.album_name {
+  font-size: 1.3rem;
+  color: rgb(83, 21, 119);
+}
+
+/* Career Section Columns */
 
 .career_section {
   flex: 1;
   flex-wrap: wrap;
+}
+
+/* Career paragraph styling  */
+
+.p_career {
+  font-size: 1.3rem;
+  color: rgb(83, 21, 119);
+}
+
+  /* Main career wrapper */
+
+.main_career_wrapper {
+width: 90%;
+margin: 0 auto;
+  
 }
