@@ -199,6 +199,11 @@ footer p {
 
 article li {
   list-style-image: url('images/prince_logo_bullet.svg');
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+article ul {
+  padding-left: 0;
 }
 
 /* Executive Summary */
@@ -225,10 +230,6 @@ article li {
   margin: 0 30px;
 }
 
-.exec-summary li {
-  margin-bottom: 5px;
-}
-
 /* Executive Summary - Pseudonyms */
 
 .name {
@@ -242,6 +243,9 @@ article li {
 }
 .names__list-item img {
   width: 70px;
+}
+.names__list-item:first-of-type {
+  list-style: none;
 }
 
 /* Newsfeed styles */
@@ -289,6 +293,10 @@ article li {
 
 .newsBoxText {
   padding: 20px;
+}
+
+.newsBrief li {
+  list-style-image: url('images/prince_logo_bullet.svg');
 }
 
 .headlineTitle .section__title {
