@@ -19,18 +19,37 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: "K2D", sans-serif;
+  margin: 0;
 }
 
 /* Header Styles */
-.site-header{
+.site-header {
   display: flex;
   background-color: rgb(83, 21, 119);
   color: whitesmoke;
-  justify-content: space-around;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.site-title, .site-nav,.sub-title {
+.site-title, 
+.site-nav,
+.sub-title {
   color: whitesmoke;
+}
+
+.site-title {
+  font-size: 6rem;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+.site-header__details {
+  margin-left: 2rem;
+}
+
+.sub-title {
+  font-family: "K2D", sans-serif;
+  margin: 0;
 }
 
 /* Image */
@@ -40,7 +59,7 @@ body {
   margin: 50px 0;
 }
 
-/*Nav styles */
+/* Nav styles */
 .site-nav ul {
   display: flex;
   flex-direction: row;
@@ -50,19 +69,29 @@ body {
 
 .site-nav__link {
   color: whitesmoke;
-  padding: 12px;
+  padding: 8px 12px;
+  transform: skew(-20deg);
+  margin-top: 8px;
 }
 
 .site-nav__link a {
   color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  transform: skew(20deg);
 }
 
-.site-nav__link.active {
+.site-nav__link.active,
+.site-nav__link:hover {
   color: rgb(83, 21, 119);
   background-color: whitesmoke;
 }
 
-.site-nav__link.active a{
+.site-nav__link.active a, 
+.site-nav__link:hover a {
   color: rgb(83, 21, 119);
 }
 
@@ -112,10 +141,6 @@ article li {
 .exec-summary {
   max-width: 90%;
   margin: 2em auto;
-  /* background-image: url('images/prince_logo.svg');
-  background-repeat: no-repeat;
-  background-size: 70%;
-  position:relative; */
 }
 
 
