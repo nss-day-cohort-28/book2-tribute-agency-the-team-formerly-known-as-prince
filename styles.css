@@ -364,4 +364,13 @@ article li {
 width: 90%;
 margin: 0 auto;
 }
+
+.quote {
+  font-size: 3rem;
+  color: rgb(83, 21, 119);
+  text-align: center;
+  padding: 200px;
+  margin-top: 50px;
+  background-color: rgba(83, 21, 119, .2);
+}
   
