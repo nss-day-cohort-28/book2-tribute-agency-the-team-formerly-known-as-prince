@@ -123,3 +123,64 @@ footer {
 footer p {
   padding: 12px;
 }
+
+/* Global Body Styles */
+
+.page-title {
+  font-size: 3rem;
+}
+
+.section__title {
+  font-size: 2rem;
+}
+
+article li {
+  list-style-image: url('images/prince_logo_bullet.svg');
+}
+
+/* Executive Summary */
+.exec-summary {
+  max-width: 90%;
+  margin: 2em auto;
+  /* background-image: url('images/prince_logo.svg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  position:relative; */
+}
+
+
+.exec-summary__intro {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: rgb(83, 21, 119);
+}
+
+.exec-summary .sections-wrapper {
+  display: flex;
+}
+.exec-summary .summary-section {
+  flex: 1;
+  
+}
+.exec-summary .summary-section:nth-child(2) {
+  margin: 0 30px;
+}
+
+.exec-summary li {
+  margin-bottom: 5px;
+}
+
+/* Executive Summary - Pseudonyms */
+
+.name {
+  margin-bottom: 5px;
+}
+
+.name__details {
+  margin-top: 0;
+  font-size: .8rem;
+  line-height: 1.3;
+}
+.names__list-item img {
+  width: 70px;
+}
