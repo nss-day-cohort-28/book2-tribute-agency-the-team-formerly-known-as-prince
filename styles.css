@@ -270,8 +270,6 @@ article li {
   display:flex;
   justify-content: center;
 }
-
-
 .likelihoodRating {
   display:flex;
   background-color: rgb(83, 21, 119);
@@ -303,3 +301,74 @@ article li {
 .headlineTitle .section__title {
   margin-top: 0;
 }
+
+/* Career Page Styling */
+
+.career_title {
+  display: flex;
+  justify-content: center;
+}
+
+/* Bullets */
+.career_article_details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+/* Center column titles */
+.section__title.career{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* Album artwork */
+
+.top_albums {
+  display: flex;
+  
+  justify-content: center;
+}
+.album_cover {
+  width: 200px;
+  height: 200px;
+}
+.individual_album {
+  display: flex;
+  justify-content: center;
+  flex-basis: 33%;
+  flex-direction: column;
+  align-items: center;
+}
+.album_name {
+  font-size: 1.3rem;
+  color: rgb(83, 21, 119);
+}
+
+/* Career Section Columns */
+
+.career_section {
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+/* Career paragraph styling  */
+
+.p_career {
+  font-size: 1.3rem;
+  color: rgb(83, 21, 119);
+}
+
+  /* Main career wrapper */
+
+.main_career_wrapper {
+width: 90%;
+margin: 0 auto;
+}
+  
