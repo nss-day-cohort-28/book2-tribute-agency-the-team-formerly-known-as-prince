@@ -99,7 +99,7 @@ body {
   color: rgb(83, 21, 119);
 }
 
-/* Classes */
+/* Personal Page Classes */
 .personal {
   max-width: 90%;
   margin: 2em auto;
@@ -124,12 +124,6 @@ body {
   height: 300px;
 }
 
-.test p {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
 .section__item {
   display: flex;
   flex-wrap: wrap;
@@ -139,7 +133,6 @@ body {
 .section__content {
   text-align: center;
 }
-
 
 .section__title {
   text-align: center;
