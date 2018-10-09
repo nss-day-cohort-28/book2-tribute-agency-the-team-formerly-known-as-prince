@@ -371,4 +371,9 @@ article li {
 width: 90%;
 margin: 0 auto;
 }
+
+.career_quote {
+  font-size: 1.3rem;
+  color: rgb(83, 21, 119);
+}
   
