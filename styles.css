@@ -39,7 +39,8 @@ body {
 }
 
 .site-title {
-  font-size: 6rem;
+  font-size: 7rem;
+  margin-top: 50px;
   margin-bottom: 12px;
   line-height: 1;
 }
@@ -190,15 +191,21 @@ footer p {
 /* Global Body Styles */
 
 .page-title {
-  font-size: 3rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
 .section__title {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 article li {
   list-style-image: url('images/prince_logo_bullet.svg');
+  list-style-position: inside;
+  margin-bottom: 5px;
+}
+article ul {
+  padding-left: 0;
 }
 
 /* Executive Summary */
@@ -225,10 +232,6 @@ article li {
   margin: 0 30px;
 }
 
-.exec-summary li {
-  margin-bottom: 5px;
-}
-
 /* Executive Summary - Pseudonyms */
 
 .name {
@@ -242,6 +245,9 @@ article li {
 }
 .names__list-item img {
   width: 70px;
+}
+.names__list-item:first-of-type {
+  list-style: none;
 }
 
 /* Newsfeed styles */
@@ -289,6 +295,10 @@ article li {
 
 .newsBoxText {
   padding: 20px;
+}
+
+.newsBrief li {
+  list-style-image: url('images/prince_logo_bullet.svg');
 }
 
 .headlineTitle .section__title {
@@ -361,8 +371,8 @@ article li {
   /* Main career wrapper */
 
 .main_career_wrapper {
-width: 90%;
-margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .quote {
