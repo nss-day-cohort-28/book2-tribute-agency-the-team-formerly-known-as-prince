@@ -59,7 +59,15 @@ body {
   margin: 50px 0;
 }
 
+<<<<<<< HEAD
 /* Nav styles */
+=======
+.relatives__content img {
+  width: 200px;
+}
+
+/*Nav styles */
+>>>>>>> master
 .site-nav ul {
   display: flex;
   flex-direction: row;
@@ -94,6 +102,53 @@ body {
 .site-nav__link:hover a {
   color: rgb(83, 21, 119);
 }
+
+/* Classes */
+.personal {
+  max-width: 90%;
+  margin: 2em auto;
+}
+
+.relatives__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.relatives__content {
+  border: 3px solid rgb(83, 21, 119);
+  flex-basis: 30%;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.relatives__content img {
+  width: 200px;
+  height: 300px;
+}
+
+.test p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.section__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section__content {
+  text-align: center;
+}
+
+
+.section__title {
+  text-align: center;
+}
+
 
 /* footer */
 footer {
