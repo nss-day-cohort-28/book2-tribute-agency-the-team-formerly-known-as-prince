@@ -154,6 +154,7 @@ article li {
 .names__list-item img {
   width: 70px;
 }
+
 /* Career Page Styling */
 
 .career_title {
@@ -161,35 +162,43 @@ article li {
   justify-content: center;
 }
 
-
-
+/* Bullets */
 .career_article_details {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-basis: 25%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 20%;
   text-align: center;
 }
 
+/* Center column titles */
 .section__title.career{
   display: flex;
   justify-content: center;
 }
 
-.album_cover {
-  max-width: 100%;
-  width: 100px;
-  
-}
 
-.career_section {
-  padding: 100px 0;
-  margin: 
-  text-align: center;
-  position: relative;
-}
+/* Album artwork */
 
 .top_albums {
   display: flex;
-  flex-direction: row;
+  
+  justify-content: center;
+}
+.album_cover {
+  width: 200px;
+  height: 200px;
+}
+.individual_album {
+  display: flex;
+  justify-content: center;
+  flex-basis: 33%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career_section {
+  flex: 1;
+  flex-wrap: wrap;
 }
