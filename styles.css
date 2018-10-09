@@ -59,15 +59,11 @@ body {
   margin: 50px 0;
 }
 
-<<<<<<< HEAD
-/* Nav styles */
-=======
 .relatives__content img {
   width: 200px;
 }
 
 /*Nav styles */
->>>>>>> master
 .site-nav ul {
   display: flex;
   flex-direction: row;
